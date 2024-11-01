@@ -3,18 +3,28 @@
 
 (Auto) generate notebooks from your source code. Useful for ACM-ICPC. 
 
-## Dependencies
+## Installation
 
-This generator works in both Linux and Windows, so check how to install texlive in your OS.
+You need texlive and node installed in your device. so check how to install texlive and node in your OS. 
 
 texlive for Linux or WSL:
 
-    apt install texlive texlive-latex-extra
-
+```
+apt install texlive texlive-latex-extra
+```
 texlive for Windows:
 
-    download installer (install-tl-Windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
+download installer (install-tl-Windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
 
+Clone this repository
+```
+https://github.com/BUET-IUPC/notebook-generator.git
+```
+Download npm dependencies
+```
+cd notebook-generator
+npm i
+```
 
 ## Use
 
@@ -61,5 +71,3 @@ Original Author: [Manuel Pineda](https://github.com/pin3da/) & [Diego Restrepo](
 
 Modification: [Pritom Kundu](https://github.com/Anachor)
 
-
-./ --author "BUET_Twilight" --initials BUET_Twilight --size 11 --columns 3 --paper a4paper
