@@ -7,6 +7,7 @@
 
 You need texlive and node installed in your device. so check how to install texlive and node in your OS. 
 
+#### Download Texlive 
 texlive for Linux or WSL:
 
 ```
@@ -16,10 +17,15 @@ texlive for Windows:
 
 download installer (install-tl-Windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
 
-Clone this repository
+#### Clone Repository
+
+Clone this repository in your device
 ```
 https://github.com/BUET-IUPC/notebook-generator.git
 ```
+
+#### Download npm dependencies
+
 Download npm dependencies
 ```
 cd notebook-generator
