@@ -1,24 +1,20 @@
 # notebook-generator
 
-[![Build Status](https://travis-ci.org/pin3da/notebook-generator.svg?branch=master)](https://travis-ci.org/pin3da/notebook-generator)
 
-(Auto) generate notebooks from your source code. Useful for ACM-ICPC
+(Auto) generate notebooks from your source code. Useful for ACM-ICPC. 
 
 ## Dependencies
 
 This generator works in both Linux and Windows, so check how to install texlive in your OS.
 
-texlive for Linux:
+texlive for Linux or WSL:
 
-    aptitude install texlive
+    apt install texlive texlive-latex-extra
 
 texlive for Windows:
 
     download installer (install-tl-Windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
 
-## Install
-
-    npm install -g notebook-generator
 
 ## Use
 
@@ -40,8 +36,8 @@ texlive for Windows:
 
 example:
 
-    notebook-generator ./ --output /tmp/team_reference.pdf
-    notebook-generator ./ --author "Universidad Tecnologica de Pereira" --initials UTP --size 12 --columns 3 --paper a4paper --image ./in-silicon
+    /<path to bin>/notebook-generator ./ --output /tmp/team_reference.pdf
+    /<path to bin>/notebook-generator ./ --author "Universidad Tecnologica de Pereira" --initials UTP --size 12 --columns 3 --paper a4paper --image ./in-silicon
 
 The second one will create a 'notebook.pdf' file in the current directory.
 
@@ -60,4 +56,6 @@ you can add .tex files which will be rendered as latex code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
 
 ----
-[Manuel Pineda](https://github.com/pin3da/) & [Diego Restrepo](https://github.com/Diegores14)
+Original Author: [Manuel Pineda](https://github.com/pin3da/) & [Diego Restrepo](https://github.com/Diegores14)
+
+Modification: [Pritom Kundu](https://github.com/Anachor)
